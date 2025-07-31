@@ -1,7 +1,7 @@
 import logo from './logo.png';
-import katalog from'./katalog.png';
+import ka from './ka.png'
 import yulduz from './yulduz.png';
-// import 'remixicon/fonts/remixicon.css';
+import 'remixicon/fonts/remixicon.css';
 import './App.css';
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="logo.png"  alt="logo" />
-        <button class="btn1" ><img class="katalog" src="katalog.png"  alt="katalog" /></button>
+
+        <button class="btn1" ><img src="ka.png"  alt="logo" /> Katalog</button>
+
          <input type="search" name="qidirish" id="qidirish" placeholder="Mahsulotlar va turkumlar izlash"></input>
           <button class="btn2" ><i class="ri-search-line"></i></button>
           <button class= "btn3" ><i class="ri-user-3-line"></i> Kirish</button>
