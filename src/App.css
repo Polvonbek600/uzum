@@ -1,41 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 .katalog{
   margin: -10px;
@@ -146,37 +108,37 @@ ul{
 body {
       font-family: sans-serif;
       padding: 20px;
-    }
+}
 
-    .imgy {
+.imgy {
       width: 24px;
       vertical-align: middle;
-    }
+}
 
-    b {
+b {
       font-size: 20px;
       margin-left: 8px;
-    }
+}
 
-    ul {
+ul {
       list-style: none;
       padding-left: 0;
       margin-top: 20px;
-    }
+}
 
-    li {
+li {
       display: inline-block;
       margin-right: 20px;
-    }
+}
 
-    a {
+a {
       position: relative;
       text-decoration: none;
       font-size: 17px;
       color:#9FA0A5FF;
-    }
+}
 
-    a::after {
+a::after {
       content: '';
       position: absolute;
       bottom: -2px;
@@ -185,8 +147,168 @@ body {
       height: 2px;
       background-color: #010102;
       transition: width 0.3s ease-in-out;
-    }
+}
 
-    a:hover::after {
+a:hover::after {
       width: 100%;
-    }
+}
+.img-sichqon{
+  width: 310px;
+  margin: 0;
+  border-radius:10px 10px 10px 10px ;
+  
+}
+.img-sichqon:hover{
+  
+  border-radius:10px 10px 0 0;
+  
+}
+
+.mahsulotlar2{
+  border:1px solid rgb(255, 255, 255) ;
+  width: 310px;
+  height: 550px;
+  position:absolute;
+  top: 130px;
+  left: 45px;
+}
+.ri-bank-card-fill{
+  color:blue;
+}
+.mahsulotlar2 h5 {
+  color: blue;
+  position:absolute;
+  top: 395px;
+}
+
+
+.p1 {
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 420px;
+  
+}
+.mahsulotlar2 .p2 {
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 440px;
+  background-color: yellow;
+  color: #010102;
+}
+.p3{
+  color: black;
+  font-size: 13px;
+ position:absolute;
+  top: 458px;
+  
+  
+}
+.ri-star-fill{
+ position:absolute;
+  top: 508px;
+ 
+  color: yellow;
+}
+.p5{
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 500px;
+  left:17px;
+}
+.btn7{
+  background-color: blue;
+  width: 310px;
+  font-size: 19px;
+ position:absolute;
+  top: 530px;
+  border: blue;
+  color: white;border-radius: 5px;
+}
+.btn7:hover{
+  background-color: blueviolet;
+}
+.mahsulotlar3{
+  position:absolute;
+  top: 130px;
+  left: 405px;
+  border:1px solid rgb(255, 255, 255) ;
+  width: 310px;
+  height: 550px;
+}
+.mahsulotlar3 h5{
+  position: relative;
+  top:-20px;
+  color: blue;
+}
+.mahsulotlar4 h5{
+  position: relative;
+  top:-20px;
+  color: blue;
+}
+.mahsulotlar5 h5{
+  position: relative;
+  top:-20px;
+  color: blue;
+}
+.p02 {
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 440px;
+  background-color: yellow;
+  color: #010102;
+}
+.mahsulotlar4{
+  position:absolute;
+  top: 130px;
+  left: 765px;
+  border:1px solid rgb(255, 255, 255) ;
+  width: 310px;
+  height: 550px;
+}
+.mahsulotlar5{
+  position:absolute;
+  top: 130px;
+  left: 1125px;
+  border:1px solid rgb(255, 255, 255) ;
+  width: 310px;
+  height: 550px;
+}
+
+.p12{
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 440px;
+  background-color: yellow;
+  color: #010102;
+}
+.p22{
+  color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 440px;
+  background-color: yellow;
+  color: #010102;
+}
+  .p21{
+    color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 425px;
+  }
+  .p31{
+    color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 425px;
+  }
+  .p41{
+    color: rgb(184, 184, 185);
+  font-size: 12.5px;
+  position:absolute;
+  top: 425px;
+  }
